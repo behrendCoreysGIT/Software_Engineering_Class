@@ -10,3 +10,9 @@ python:
   - "3.7-dev" # 3.7 development branch
 # command to run tests
 script: "python simple_tests.py"
+notifications:
+  email:
+    recipients:
+      - coreybw1@gcc.edu
+    on_sucess: never
+    on_failure: always
